@@ -1,6 +1,8 @@
 body {
     color: #001A23;
     background-color: #d6f5ff;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -12,10 +14,17 @@ header {
     align-self: center;
 }
 
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    font-size: 18px;
+}
+
 section {
     width: 80%;
     margin: auto;
-    background-color: #cfe8ef;
+    background-color: #cbe7f1;
 }
 
 article {
@@ -24,6 +33,7 @@ article {
     margin: 10px auto;
     padding: 10px;
     border-radius: 15px;
+    font-size: 17px;
 }
 
 h2 {
