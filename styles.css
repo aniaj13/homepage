@@ -32,7 +32,7 @@ main {
     display: flex;
     width: inherit;
     align-self: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 10px;
     font-size: 16px;
     text-transform: uppercase;
@@ -40,7 +40,7 @@ main {
 }
 
 .contentSection {
-    width: 80%;
+    width: 70%;
     margin: auto;
     background-color: rgba(98, 172, 175, 0.22);
 }
@@ -53,6 +53,7 @@ main {
     border-radius: 15px;
     font-size: 17px;
 }
+
 
 .pageTitle {
 text-align: center;
@@ -80,3 +81,22 @@ a {
     padding: 5px;
     margin-bottom: 0;
 }
+
+.helloBox {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.helloBox__text {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
