@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Notatki CSS</title>
+    <link rel="stylesheet" href="normalize.css" type="text/css">
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -18,6 +19,42 @@
         <a href="notesJS.html">Notatki JS</a>
     </nav>
 </header>
+
+<section class="contentSection">
+    <h2 class="contentSection__title">Notatki CSS</h2>
+    <article class="article">
+        <h3 class="article__title">Moduł IV</h3>
+        <p><strong>Overflow</strong>- decyduje co zrobić z treścią, która wystaje poza boxa - hidden, auto, clip
+            (bardziej zaawansowane), scroll, visible</p>
+        <p>Jednostki - vw (viewport width) - % widocznego ekranu</p>
+        <p>box-sizing: border box</p>
+        <p><strong>Position</strong>:
+        <ul>
+            <li>static - default przeglądarki</li>
+            <li>relative - tworzy przestrzeń, w której można użyć absolute</li>
+            <li>absolute - wartości top, right, bottom, left - oddalenie od</li>
+            <li>fixed - przykleja element do strony</li>
+            <li>sticky - przyklejanie elementu w obszarze rodzica np. przyklejanie nagłówków - gdy jest overflow to nie
+                zadziała + musi być określona wartość top
+            </li>
+        </ul>
+        <p>z-index - warstwowanie elementów na stronie</p>
+        <p>float - left, right - opływanie treścią - dobre dla zdjęć w artykułach</p>
+        <p>clear - czyści floaty</p>
+        <p><strong>Normalizacja CSS</strong> - normalize.css + <br>
+            html { <br>
+            box-sizing: border-box; <br>
+            } <br>
+            *, *:before, *:after { <br>
+            box-sizing: inherit;
+            <br>}
+        </p>
+        <p> <strong>BEM</strong>- block element modifier - sposób nazywania klas css - odwzorowanie struktury html w css - nadrzędny element - element - modyfikator
+            <br> block__element--modifier <br>
+            klasa + klasa z modyfikatorem
+        </p>
+    </article>
+</section>
 
 </body>
 </html>
