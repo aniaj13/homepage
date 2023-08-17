@@ -49,12 +49,46 @@
             box-sizing: inherit;
             <br>}
         </p>
-        <p> <strong>BEM</strong>- block element modifier - sposób nazywania klas css - odwzorowanie struktury html w css - nadrzędny element - element - modyfikator
+        <p><strong>BEM</strong>- block element modifier - sposób nazywania klas css - odwzorowanie struktury html w css
+            - nadrzędny element - element - modyfikator
             <br> block__element--modifier <br>
             klasa + klasa z modyfikatorem
         </p>
     </article>
+    <article class="article">
+        <h3 class="article__title">Moduł V</h3>
+        <p>Jednostki:
+        <ul>
+            <li>1 em - font-size dla elementu ustawiony bądź dziedziczony</li>
+            <li>1 rem - font-size dla root elementu (1 rem = 16px) (definiowany przez html)</li>
+        </ul>
+        </p>
+        <p><strong>Flexbox</strong>:</p>
+        <ul>
+            <li>flex-wrap = zawijanie wiersza/kolumny - wrap, nowrap, wrap-reverse</li>
+            <li>flex-flow = flex-direction + flex-wrap</li>
+            <li>align-content = używa się przy flex wrap, gdy mamy więcej kolumn/wierszy, ustawianie wierszy i kolumn
+                wg. drugiej osi
+            </li>
+            <li>align-items = ustawianie elementów wzdłuż drugiej osi</li>
+            <li>align-self - do wyłamania elementu ze schematu flex z rodzica - przyjmuje indywidualne wartości</li>
+            <li>order - kolejność elementów</li>
+            <li>flex-grow i flex-shrink</li>
+            <li>flex-basis</li>
+            <li>row-gap & column-gap lub gap</li>
+        </ul>
+        <p><strong>Tła</strong>:</p>
+        <ul>
+            <li>background-image: url('')</li>
+            <li>background-position: x y</li>
+            <li>background-repeat: repeat; round - tło nie jest ucinane, jest skalowane; space - działa jak flexbox, bez skalowania jak w round ; repeat-x; repeat-y</li>
+            <li>background-attachment: scroll ; fixed - tło nieruchome ; local - scrolluje się wewnątrz elementu (z overflowem) ;</li>
+            <li>background-origin: padding-box, border-box, content-box</li>
+            <li>background-clip: ucinanie tła - padding-box, border-box, content-box</li>
+            <li>background-size: auto ; cover - wypełnia całą przestrzeń; contain - rozszerza się by cały się pokazać ;</li>
+        </ul>
+        <p>Warto dodawać element wyżej do body padding 16px (wygląda dobrze i na komputerach i na telefonach)</p>
+        <p>body min-height: 100vh</p>
+    </article>
 </section>
 
-</body>
-</html>

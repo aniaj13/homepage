@@ -41,7 +41,7 @@ main {
 
 .contentSection {
     width: 70%;
-    margin: auto;
+    margin: 30px auto;
     background-color: rgba(98, 172, 175, 0.22);
 }
 
@@ -54,6 +54,10 @@ main {
     font-size: 17px;
 }
 
+.article p {
+    line-height: 1.5;
+    font-size: 16px;
+}
 
 .pageTitle {
 text-align: center;
@@ -100,3 +104,8 @@ a {
     font-weight: 500;
 }
 
+.js_picture {
+    margin: 10px auto;
+     border-radius: 10px;
+    opacity: 0.9;
+}
